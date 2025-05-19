@@ -1,7 +1,11 @@
 # DataAnalytics-Assessment
 Accurate, complete, efficient and readable SQL solutions for Cowrywise data analytics assessment, including insights and business recommendations.
+
+
 🧠 Cowrywise User Behavior & Value Analytics
 This project analyzes transactional and behavioral data from Cowrywise, a digital savings and investment platform. The dataset spans four key tables that illuminate user engagement, financial behavior, and product performance.
+
+
 
 📊 Data Model Overview
 👤 users_customuser
@@ -51,7 +55,10 @@ Relationships via: owner_id, plan_id, created_on
 
 Supports: churn analysis, goal tracking, revenue modeling, segmentation
 
+
+
 ❓ Question 1: High-Value Customer Segmentation
+
 🧩 Approach
 Filtered users with both confirmed savings and investment plans
 
@@ -94,7 +101,10 @@ Bundle products for multi-plan users
 
 Prioritize support for Gold-tier clients
 
+
+
 ❓ Question 2: Transaction Frequency Segmentation
+
 🧩 Approach
 Calculated avg. confirmed transactions per active month
 
@@ -133,7 +143,10 @@ Alerts for frequency drops
 
 Segment-based product development
 
+
+
 ❓ Question 3: Inactive Account Detection
+
 🧩 Approach
 Flagged plans with no inflows in 365+ days
 
@@ -170,7 +183,10 @@ Alert CRM teams weekly
 
 Integrate into retention dashboards
 
+
+
 ❓ Question 4: Estimating Customer Lifetime Value (CLV)
+
 🧩 Approach
 Calculated tenure (months)
 
